@@ -35,7 +35,7 @@ function setup() {
 
 	Engine.run(engine);
 	Render.run(render);
-    Sling = new Slingshot(paperObject.body,{x:200,y:50});
+    Sling = new slingshot(paperObject.body,{x:200,y:50});
 }
 
 
